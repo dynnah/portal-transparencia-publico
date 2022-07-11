@@ -11,6 +11,7 @@ import ComparationDashboard from "./dashboards/ComparationDashboard";
 import ByYearDashboard from "./dashboards/ByYearDashboard";
 import CompareYearsDashboard from "./dashboards/CompareYearsDashboard";
 import ComparationMinisterioDashboard from "./dashboards/ComparationMinisterioDashboard";
+import MinisteriosCostsDashboard from "./dashboards/MinisteriosCostsDashboard";
 
 const { dispatch } = store;
 
@@ -34,6 +35,7 @@ const Dashboard = () => {
     <Main>
       <Navbar />
       <Intro />
+      <MinisteriosCostsDashboard />
       <DashboardMinisterios />
       <CostsDashboard />
       <TimelineDashboard />
